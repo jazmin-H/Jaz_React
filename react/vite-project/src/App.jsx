@@ -1,4 +1,6 @@
 import {MyPrimerSamira} from './components/miPrimerComponente/Mi1ercomp'
+import { Estado } from './components/estado/Estado';
+
 
 const Myfunction = () => {
   return<>hola </>;
@@ -9,7 +11,8 @@ function App() {
   return (
     <>
        <Myfunction/>
-       <MyPrimerSamira name={'Samira'} last_name={'Chamilka'}/>
+       <MyPrimerSamira name={'Shoto'} last_name={'Todoroki'}/>
+       <Estado/>
     </>
   );
 }
