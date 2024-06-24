@@ -22,7 +22,7 @@ export function Personajes (){
         </h2>
           <p>specie: {personaje.specie}</p>
          </div> 
-        ))}
+         ))}
       
         </>
         )}

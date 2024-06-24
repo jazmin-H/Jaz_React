@@ -19,7 +19,7 @@ export function GetPost(){
              id : {data.body}</h2>
           <p>body: {data.body}</p>
         </>
-           )}
+          )}
     </>
   );
 }
