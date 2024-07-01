@@ -2,7 +2,7 @@ import {MyPrimerSamira} from './components/miPrimerComponente/Mi1ercomp'
 import { Estado } from './components/estado/Estado'
 import { GetPost } from './components/GetPost/GetPost'
 import {Personajes} from './components/personajesRM/Personajes'
-
+import {ConvertidorMonedas} from './components/ConvertidorMoneda/Convmoneda'
 const Myfunction = () => {
   return<>hola </>;
 }
@@ -16,6 +16,7 @@ function App() {
        <Estado/>
        <GetPost/>
        <Personajes/>
+       <ConvertidorMonedas/>
     </>
   );
 }
