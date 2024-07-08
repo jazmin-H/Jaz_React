@@ -1,11 +1,11 @@
 import { useEffect, useState } from "react";
 
-export function Personajes (){
-    const [personajes, setPersonajes] = useState([]); 
+export function EpisodioPersonajes (){
+    const [epis, setEpi] = useState([]); 
    useEffect(() => {
        fetch("https://rickandmortyapi.com/api/character")
        .then((response) => response.json())
-       .then(personaje => setPersonajes(personaje.results));
+       .then(epi => setEpisodioPersonaje(epi.results));
    },[]);
    return( 
     <>

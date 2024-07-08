@@ -1,9 +1,15 @@
 .grilla-3x3{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(265px,1fr)); 
-    grid-template-rows: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr)); 
+    grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 70px;
    }
+
+.marco{
+  background-color: rgb(52, 136, 104);
+  text-align: center;
+  border-radius: 30px;
+}
 
    .container {
     max-width: 600px;
